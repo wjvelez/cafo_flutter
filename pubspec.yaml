@@ -1,0 +1,31 @@
+name: cafo_flutter
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Gilroy
+      fonts:
+        - asset: assets/fonts/Gilroy-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Gilroy-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Gilroy-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Gilroy-Black.ttf
+          weight: 900
