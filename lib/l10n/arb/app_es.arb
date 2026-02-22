@@ -1,0 +1,10 @@
+{
+  "@@locale": "es",
+
+  "appName": "CAFO",
+  "navOverview": "Resumen",
+  "navChallenges": "Retos",
+  "navTracker": "Registro",
+  "navLearn": "Aprender",
+  "navSettings": "Ajustes"
+}

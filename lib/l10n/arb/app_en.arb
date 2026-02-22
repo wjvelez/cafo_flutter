@@ -1,0 +1,21 @@
+{
+  "@@locale": "en",
+
+  "appName": "CAFO",
+  "@appName": { "description": "Application name" },
+
+  "navOverview": "Overview",
+  "@navOverview": { "description": "Bottom nav label for Overview tab" },
+
+  "navChallenges": "Challenges",
+  "@navChallenges": { "description": "Bottom nav label for Challenges tab" },
+
+  "navTracker": "Tracker",
+  "@navTracker": { "description": "Bottom nav label for Tracker tab" },
+
+  "navLearn": "Learn",
+  "@navLearn": { "description": "Bottom nav label for Learn tab" },
+
+  "navSettings": "Settings",
+  "@navSettings": { "description": "Bottom nav label for Settings tab" }
+}
