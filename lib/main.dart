@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'core/theme/theme.dart';
+import 'features/main/presentation/screens/main_screen.dart';
+import 'l10n/l10n.dart';
 
 void main() {
   runApp(const MainApp());
@@ -9,12 +12,12 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: AppTheme.lightTheme,
+      localizationsDelegates: AppLocalizations.localizationsDelegates,
+      supportedLocales: AppLocalizations.supportedLocales,
+      home: const MainScreen(),
     );
   }
 }
